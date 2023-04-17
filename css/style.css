@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(180deg, rgb(119, 130, 224), rgb(119, 130, 224), rgb(181, 204, 235));
+    
+}
+form,#result{
+    width: 50vw;
+    height: 50vh;
+}
+label{
+    font-size: 40px;
+    
+}
+input{
+    width: 100%;
+    height: 50px;	
+    border-radius: 10px;
+    margin: 10px 0px 20px;
+    padding: 10px;
+    
+}
+button{
+    background-image: linear-gradient(45deg,  rgb(119, 130, 224), blue);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+   
+}
+
+#result{
+    text-align: center;
+}
+#result h2,#result h3{
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+#result p{
+    font-size: 20px;
+}
